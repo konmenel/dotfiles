@@ -109,7 +109,10 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-source "$HOME/.cargo/env"
+# Check if cargo exists
+if [ -d "$HOME/.cargo" ]; then
+    source "$HOME/.cargo/env"
+fi
 
 export PATH="$HOME/.local/bin:$PATH"
 

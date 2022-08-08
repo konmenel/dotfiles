@@ -55,7 +55,9 @@ alias ii="nautilus"
 eval /home/konmenel/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
-set -Ua fish_user_paths $HOME/.cargo/bin
+if test -d $HOME/.cargo
+    set -Ua fish_user_paths $HOME/.cargo/bin
+end
 
 set -x PATH $HOME/.local/bin $PATH
 

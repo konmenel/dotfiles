@@ -10,9 +10,9 @@
     ~/.bashrc: bashrc
     ~/.bash_aliases: bash_aliases
     ~/.gitconfig: gitconfig
-    ~/.config/terminator:
+    ~/.config/terminator/config:
       create: true
-      path: config/terminator
+      path: config/terminator/config
     ~/.config/Code/User/settings.json:
       create: true
       path: config/Code/User/settings.json
@@ -28,4 +28,7 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [./setupfish.sh, Setting up fish]
+  - 
+    command: ./setupfish.sh
+    stdout: true
+    description: Setting up fish

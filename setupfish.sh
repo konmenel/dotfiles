@@ -25,6 +25,7 @@ if which fish &> /dev/null ; then
 else
     echo "Installing fish"
     install_fish
+    chsh -s $(which fish)
     echo "Fish installed"
 fi
 

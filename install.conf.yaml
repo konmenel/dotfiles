@@ -28,7 +28,3 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - 
-    command: ./setupfish.sh
-    stdout: true
-    description: Setting up fish

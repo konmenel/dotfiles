@@ -2,7 +2,7 @@
 Repo to manage my dotfiles on different computers.
 
 ## Install
-To install run the following commands:
+To install the dotfiles run the following commands:
 
 ### With HTTPS
 ```
@@ -16,4 +16,9 @@ cd .dotfiles
 git clone git@github.com:konmenel/dotfiles.git ~/.dotfiles
 cd .dotfiles
 ./install
+```
+
+The script only creates the symbolic links. To install and setup fish as the defualt shell you can run the script:
+```
+./setupfish.sh
 ```

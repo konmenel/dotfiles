@@ -39,3 +39,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# Local customizations
+if [ -f ~/.bash_aliases_local ]; then
+    source ~/.bash_aliases_local
+fi

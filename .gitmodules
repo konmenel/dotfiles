@@ -1,0 +1,9 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+[submodule "vim/pack/plugins/start/lightline"]
+	path = vim/pack/plugins/start/lightline
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "vim/pack/plugins/start/rainbow"]
+	path = vim/pack/plugins/start/rainbow
+	url = https://github.com/frazrepo/vim-rainbow.git

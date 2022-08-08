@@ -1,0 +1,51 @@
+{
+    // General settings
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "editor.inlineSuggest.enabled": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Light",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Line endings
+    // "editor.renderWhitespace": "all",
+    // "code-eol.newlineCharacter": "¬",
+    // "code-eol.returnCharacter" : "¤",
+    // "code-eol.crlfCharacter"   : "¤¬",
+
+    // Git settings
+    "git.confirmSync": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false,
+        "c": true,
+        "shellscript": false,
+        "xml": false,
+        "cpp": false,
+        "python": false
+    },
+    
+    // Mouse scroll sensitivity (default: 1)
+	"editor.mouseWheelScrollSensitivity": 1,
+    "workbench.list.mouseWheelScrollSensitivity": 1,
+    "terminal.integrated.mouseWheelScrollSensitivity": 1,
+    
+    // Cmake settings
+    "cmake.buildDirectory": "${env:HOME}/${workspaceFolderBasename}-build",
+    "python.defaultInterpreterPath": "c:\\Users\\kotsi\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    // "cmake.configureOnOpen": true,
+    "cmake.parallelJobs": 6,
+    
+    // Python settings
+    "autoDocstring.docstringFormat": "numpy",
+    "jupyter.askForKernelRestart": false,
+
+    // Terminal settings
+    "powershell.integratedConsole.showOnStartup": false,
+    "terminal.integrated.fontFamily": "PowerlineSymbols, monospace, 'Cousine NF', Consolas, 'Courier New'"
+}

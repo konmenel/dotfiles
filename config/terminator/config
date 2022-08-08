@@ -1,0 +1,19 @@
+[global_config]
+  handle_size = 1
+  window_state = hidden
+[keybindings]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    scrollback_lines = 5000
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 1200, 800
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]

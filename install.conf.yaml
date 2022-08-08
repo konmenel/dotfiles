@@ -1,0 +1,31 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.vim: vim
+    ~/.vimrc: vimrc
+    ~/.bashrc: bashrc
+    ~/.bash_aliases: bash_aliases
+    ~/.gitconfig: gitconfig
+    ~/.config/terminator:
+      create: true
+      path: config/terminator
+    ~/.config/Code/User/settings.json:
+      create: true
+      path: config/Code/User/settings.json
+    ~/.config/Code/User/keybindings.json:
+      create: true
+      path: config/Code/User/keybindings.json
+    ~/.config/fish/config.fish:
+      create: true
+      path: config/fish/config.fish
+    ~/.fishrc: 
+      glob: True
+      path: ~/.config/fish/config.fish
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [./setupfish.sh, Setting up fish]

@@ -1,0 +1,7 @@
+[user]
+	name = konmenel
+	email = konmenel@gmail.com
+
+# Local customization
+[include]
+	path = ~/.gitconfig_local

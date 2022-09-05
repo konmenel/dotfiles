@@ -75,7 +75,7 @@ set -x CPLUS_INCLUDE_PATH $CPLUS_INCLUDE_PATH $SIMBODY_HOME/include $GTEST_ROOT/
 set -x WF_API_TOKEN "68e39a7412544c978500e02c85ef87d7"
 
 # Env variables for ichec
-set -x ICHEC_HOME "konmenel@kay.ichec.ie:~"
+set -x ICHEC_HOME "konmenel@kay.ichec.ie:/ichec/home/users/konmenel"
 set -x ICHEC_WORK "konmenel@kay.ichec.ie:/ichec/work/ndmat033a/constantinos"
 
 # Local customizations

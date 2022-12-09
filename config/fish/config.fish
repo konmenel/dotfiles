@@ -60,23 +60,13 @@ if test -d $HOME/.cargo
 end
 
 set -x PATH $HOME/.local/bin $PATH
-
-set -x TBB_HOME /usr/lib/x86_64-linux-gnu
-set -x BOOST_HOME /usr/lib/x86_64-linux-gnu
-set -x SIMBODY_HOME $HOME/simbody
-set -x GTEST_ROOT /home/konmenel/gtest
-set -x CHRONO_HOME $HOME/.local/share/chrono
-set -x HDF5_ROOT /usr/local/hdf5-1.12.2
-set -x DUALSPH_HOME $HOME/DualSPHysics_v5.0
-
-set -x LD_LIBRARY_PATH $LD_LIBRARY_PATH $GTEST_ROOT/lib $SIMBODY_HOME/lib\
-set -x CPLUS_INCLUDE_PATH $CPLUS_INCLUDE_PATH $SIMBODY_HOME/include $GTEST_ROOT/include\
-
-set -x WF_API_TOKEN "68e39a7412544c978500e02c85ef87d7"
+set -x PATH /usr/local/cuda-11.8/bin $PATH
+set -x LD_LIBRARY_PATH /usr/local/cud-11.8/lib64 $LD_LIBRARY_PATH
 
 # Env variables for ichec
 set -x ICHEC_HOME "konmenel@kay.ichec.ie:~"
-set -x ICHEC_WORK "konmenel@kay.ichec.ie:/ichec/work/ndmat033a/constantinos"
+set -x ICHEC_WORK "konmenel@kay.ichec.ie:/ichec/work/ndear024a/constantinos"
+set -x ICHEC_WORK2 "konmenel@kay.ichec.ie:/ichec/work/ndmat033a/constantinos"
 
 # Local customizations
 if test -f ~/.fishrc_local

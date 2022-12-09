@@ -128,7 +128,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SIMBODY_HOME/lib:$GTEST_ROOT/lib
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$SIMBODY_HOME/include:$GTEST_ROOT/include
 
 # Env variables for ichec
-export ICHEC_HOME="konmenel@kay.ichec.ie:~"
+export ICHEC_HOME="konmenel@kay.ichec.ie:/ichec/home/users/konmenel"
 export ICHEC_WORK="konmenel@kay.ichec.ie:/ichec/work/ndmat033a/constantinos"
 
 # Local customizations

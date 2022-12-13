@@ -116,17 +116,6 @@ fi
 
 export PATH="$HOME/.local/bin:$PATH"
 
-export TBB_HOME=/usr/lib/x86_64-linux-gnu
-export BOOST_HOME=/usr/lib/x86_64-linux-gnu
-export SIMBODY_HOME=$HOME/simbody
-export GTEST_ROOT=$HOME/gtest
-export CHRONO_HOME=$HOME/.local/share/chrono
-export HDF5_ROOT=/usr/local/hdf5-1.12.2
-export DUALSPH_HOME=$HOME/DualSPHysics_v5.0
-
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SIMBODY_HOME/lib:$GTEST_ROOT/lib
-export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:$SIMBODY_HOME/include:$GTEST_ROOT/include
-
 # Env variables for ichec
 export ICHEC_HOME="konmenel@kay.ichec.ie:/ichec/home/users/konmenel"
 export ICHEC_WORK="konmenel@kay.ichec.ie:/ichec/work/ndmat033a/constantinos"

@@ -65,7 +65,7 @@ set -x LD_LIBRARY_PATH /usr/local/cud-11.8/lib64 $LD_LIBRARY_PATH
 
 # Env variables for ichec
 set -x ICHEC_HOME "konmenel@kay.ichec.ie:/ichec/home/users/konmenel"
-set -x ICHEC_WORK "konmenel@kay.ichec.ie:/ichec/work/ndmat024a/constantinos"
+set -x ICHEC_WORK "konmenel@kay.ichec.ie:/ichec/work/ndear024a/constantinos"
 set -x ICHEC_WORK2 "konmenel@kay.ichec.ie:/ichec/work/ndmat033a/constantinos"
 
 # Local customizations
